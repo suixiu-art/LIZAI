@@ -19,7 +19,7 @@ const AdjustmentPanel: React.FC<AdjustmentPanelProps> = ({ onApplyAdjustment, is
     { name: 'Blur Background', prompt: 'Apply a realistic depth-of-field effect, making the background blurry while keeping the main subject in sharp focus.' },
     { name: 'Enhance Details', prompt: 'Slightly enhance the sharpness and details of the image without making it look unnatural.' },
     { name: 'Warmer Lighting', prompt: 'Adjust the color temperature to give the image warmer, golden-hour style lighting.' },
-    { name: 'Product Shot', prompt: 'Natural light and shadow, mid to long shot. Remove the background entirely, preserving only the main product and its details without any text, slogans, or additional graphic elements. Place the product in a high-end luxury setting with a clean, minimalist aesthetic. The style should be photorealistic, ultra-detailed, and commercially refined, complemented by subtle upscale decor elements in the surroundings.' },
+    { name: 'Product Shot', prompt: 'Natural light and shadow, mid to long shot. Remove the background entirely, preserving only the main product and its details without any text, slogans, or additional graphic elements. Place the product in a high-end luxury setting with a clean, minimalist aesthetic. The luxury environment and any subtle upscale decor elements in the surroundings must be contextually relevant to the product itself. The style should be photorealistic, ultra-detailed, and commercially refined.' },
   ];
 
   const activePrompt = selectedPresetPrompt || customPrompt;
